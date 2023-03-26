@@ -1,0 +1,242 @@
+body {
+  background: url("/img/Start\ screen.png");
+  background-size: contain;
+}
+
+.start-screen {
+}
+
+.wrapper {
+  overflow: hidden;
+}
+.header {
+  margin: 40px 60px 0px 40px;
+
+  justify-content: space-between;
+  display: flex;
+  color: #f1cdb3;
+}
+
+.header-logo_und-text-block {
+  padding: 0px 0px 10px 0px;
+  font-size: 13px;
+}
+.header-logo-und-text {
+  color: #ffffff;
+}
+.header-logo {
+  font-size: 32px;
+}
+
+.header-nav-li {
+  display: inline-block;
+  margin: 0px 35px 0px 0px;
+  font-size: 15px;
+}
+.header-nav-a:hover {
+  border-bottom: 2px solid #f1cdb3;
+}
+.header-nav-a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+.main {
+  margin: 223px 40px 0px 40px;
+
+  color: #f1cdb3;
+  display: flex;
+}
+
+.article {
+  width: 460px;
+  margin: 0px 42px 243px 0px;
+}
+
+.article-h {
+  width: 310px;
+  font-size: 44px;
+
+  margin: 0px 0px 42px 0px;
+  color: #ffffff;
+}
+.article-txt {
+  width: 460px;
+  font-size: 15px;
+  margin: 0px 0px 42px 0px;
+
+  color: #cdcdcd;
+}
+
+.article-btn {
+  width: 207px;
+  letter-spacing: 0.06em;
+
+  align-items: center;
+  padding: 15px 45px;
+  gap: 10px;
+  width: 207px;
+
+  background: #f1cdb3;
+  border: none;
+
+  border-radius: 100px;
+}
+.article-btn:hover {
+  background: #fddcc4;
+}
+.article-btn:active {
+  background: #f2d1b9;
+}
+
+.side {
+  position: absolute;
+  left: calc(50% - 698px / 2 + 251px);
+  /* I didn't understand where to put it... Cry Cry Cry */
+}
+
+/* ------------------ABOUT BLOCK----------------- */
+
+.about {
+  background-color: #ffffff;
+}
+
+.about-block {
+  padding: 80px 40px 100px 40px;
+}
+.article-img {
+  margin: 0px 120px 0px 175px;
+}
+
+.aside {
+  width: 430px;
+}
+
+.aside {
+  margin: 14px 175px 14px 0px;
+}
+
+.about-text-block {
+  width: 430px;
+  float: right;
+
+  margin: 14px 175px 14px 0px;
+}
+
+.about-h {
+  font-size: 45px;
+  line-height: 130%;
+  max-width: 370px;
+  margin: 0px 0px 25px 0px;
+}
+
+.about-txt_1 {
+  font-size: 15px;
+  line-height: 14px;
+  margin: 0px 0px 49px 0px;
+}
+
+/* ----------------------------PETS CONTENT--------------- */
+span {
+  padding: 0 70px;
+}
+.heading-pets {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-size: 35px; /**/
+  text-align: center;
+  width: 400px;
+}
+
+.slider-btn {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+}
+.slider-btn:hover {
+  background: #fddcc4;
+}
+
+.slider-btn:active {
+  transition: all 0.2s;
+  background: #f1cdb3;
+}
+.pets {
+  background: #e6e2e2;
+}
+.pets-content {
+  padding: 80px 40px 100px 40px;
+}
+
+.slider {
+  margin: 0px 0px 60px 0px;
+}
+.slider-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; /*IDk why a can't set margin for slider-line_block-pets and btn*/
+}
+.slider-line_block-pets {
+  border-radius: 9px;
+  background: #fafafa;
+}
+
+/* .block-pets_item-img:hover {
+  transform: scale(1.1);
+} */
+.slider-line_block-pets:hover {
+  transform: scale(1.1);
+}
+
+.slider-line_block-pets_nick {
+  margin: 30px 98px 30px 98px;
+
+  color: #545454;
+  font-size: 20px;
+  line-height: 23px;
+
+  letter-spacing: 0.06em;
+}
+
+.block-pets-action {
+  margin: 0px 41.5px 30px 41.5px;
+}
+
+.block-pets_btn {
+  padding: 15px 45px;
+  align-items: center;
+
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  background-color: #ffffff;
+
+  width: 187px;
+}
+.block-pets_btn:hover {
+  background: #fddcc4;
+  border-color: #fddcc4;
+}
+.block-pets_btn:active {
+  transition: all 0.2s;
+  background: #f2d1b9;
+}
+
+.pets-content_action {
+  text-align: center;
+}
+.pets-content_btn {
+  padding: 15px 45px;
+
+  background: #f1cdb3;
+  border-radius: 100px;
+  border: none;
+}
+
+.pets-content_btn:hover {
+  background-color: #fddcc4;
+}
+.pets-content_btn:active {
+  transition: all 0.2s;
+  background-color: #f2d1b9;
+}
